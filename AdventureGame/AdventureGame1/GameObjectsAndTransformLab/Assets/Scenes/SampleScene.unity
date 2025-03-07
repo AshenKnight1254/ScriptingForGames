@@ -1030,6 +1030,7 @@ GameObject:
   - component: {fileID: 1667234315}
   - component: {fileID: 1667234318}
   - component: {fileID: 1667234319}
+  - component: {fileID: 1667234320}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -1178,6 +1179,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1667234320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667234313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f6cc2776b27204da3732cd775f9f79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shrinkFactor: 0.9
 --- !u!1 &2026662302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1192,6 +1206,7 @@ GameObject:
   - component: {fileID: 2026662304}
   - component: {fileID: 2026662303}
   - component: {fileID: 2026662308}
+  - component: {fileID: 2026662309}
   m_Layer: 0
   m_Name: Cube w/ force
   m_TagString: Untagged
@@ -1327,6 +1342,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2026662309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026662302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f6cc2776b27204da3732cd775f9f79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shrinkFactor: 0.9
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
